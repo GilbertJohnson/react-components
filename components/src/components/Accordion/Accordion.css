@@ -1,0 +1,45 @@
+.accordion-container{
+    border: 1px dotted lavenderblush;
+    border-radius: 4px;
+    padding: 8px;
+    width: 400px;
+    background-color: darkgray;
+    display: flex;
+    margin: auto auto 5px auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-width: 300px;
+}
+.toggleinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.accordion-container h2 {
+    margin: 0;
+    padding: 2px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion-container .toggleButton{
+    position: absolute;
+    right: 0;
+}
+.accordion-container p{
+    margin-top: 5px;
+    padding: 2px;
+}
+.accordion-content{
+    max-height: 0;
+    overflow:auto;
+    transition: max-height 0.2s ease-out;
+}
+.accordion-content.open{
+    max-height: 150px;
+}

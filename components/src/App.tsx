@@ -8,6 +8,9 @@ function App() {
           <li>
             <Link to={"/accordion"}>Accordion</Link>
           </li>
+          <li>
+            <Link to={"/analogclock"}>AnalogClock</Link>
+          </li>
         </ul>
       </nav>
     </>

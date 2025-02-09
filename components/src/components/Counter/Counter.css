@@ -1,6 +1,9 @@
 .counter-app{
+    display: block;
+    justify-content: center;
     font-family: 'Arial', sans-serif;
     text-align: center;
+    margin-top: 50px;
     padding: 20px;
     button{
         background-color: #4caf50;
@@ -11,7 +14,7 @@
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        margin: 4px 2px;
+        margin: 20px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
     }
@@ -21,18 +24,18 @@
     input{
         padding: 10px;
         width: 30px;
-        margin: 10px;
         font-size: 16px;
         border: 2px solid #ddd;
         border-radius: 4px;
         display: block;
-        margin: auto;
+        margin: 20px auto ;
     }
     input:focus{
         border-color:#4CAF50 ;
     }
     span{
         display: inline;
+        margin: 50px;
     }
 }
 .counter-app h2{

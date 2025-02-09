@@ -1,10 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
-import Accordion from './components/Accordion/Accordion.tsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import "./index.css"
+import Accordion from './components/Accordion/Accordion.tsx'
 import AnalogClock from './components/AnalogClock/AnalogClock.tsx'
+import Counter from './components/Counter/Counter.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path='/' element={<App />}/>
         <Route path="/accordion" element={<Accordion />}/>
         <Route path='/analogclock' element={<AnalogClock/>}/>
+        <Route path='/counter' element={<Counter />}/>
       </Routes>
     </BrowserRouter>
     

@@ -11,6 +11,9 @@ function App() {
           <li>
             <Link to={"/analogclock"}>AnalogClock</Link>
           </li>
+          <li>
+            <Link to={"/counter"}>Simple Counter</Link>
+          </li>
         </ul>
       </nav>
     </>

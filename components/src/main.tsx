@@ -6,6 +6,7 @@ import "./index.css"
 import Accordion from './components/Accordion/Accordion.tsx'
 import AnalogClock from './components/AnalogClock/AnalogClock.tsx'
 import Counter from './components/Counter/Counter.tsx'
+import SkeletonLoader from './components/SkeletonLoader/SkeletonLoader.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/accordion" element={<Accordion />}/>
         <Route path='/analogclock' element={<AnalogClock/>}/>
         <Route path='/counter' element={<Counter />}/>
+        <Route path='/skeleton-loader' element={<SkeletonLoader/>} />
       </Routes>
     </BrowserRouter>
     

@@ -14,6 +14,9 @@ function App() {
           <li>
             <Link to={"/counter"}>Simple Counter</Link>
           </li>
+          <li>
+            <Link to={"/skeleton-loader"}>Skeleton Loader</Link>
+          </li>
         </ul>
       </nav>
     </>

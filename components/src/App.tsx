@@ -17,6 +17,9 @@ function App() {
           <li>
             <Link to={"/skeleton-loader"}>Skeleton Loader</Link>
           </li>
+          <li>
+            <Link to={"/timer"}>Countdown Timer</Link>
+          </li>
         </ul>
       </nav>
     </>

@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.star-rating{
+    display: flex;
+    align-items: center;
+    font-size: 90px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.star-rating .star{
+    color: grey;
+    margin: 0 10px;
+}
+
+.star-rating .star.full{
+    color: goldenrod;
+}
+
+.rating-message{
+    font-weight: bold;
+    font-size: 44px;
+    position:absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap;
+    transition: opacity 0.3s;
+}
+
+.star-rating:hover .rating-message{
+    opacity: 1;
+}

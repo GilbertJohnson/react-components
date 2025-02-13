@@ -20,6 +20,9 @@ function App() {
           <li>
             <Link to={"/timer"}>Countdown Timer</Link>
           </li>
+          <li>
+            <Link to={'/starrating'} >Star Rating</Link>
+          </li>
         </ul>
       </nav>
     </>

@@ -9,6 +9,7 @@ import Counter from './components/Counter/Counter.tsx'
 import SkeletonLoader from './components/SkeletonLoader/SkeletonLoader.tsx'
 import TimerMain from './components/Timer/TimerMain.tsx'
 import StarRating from './components/StarRating/StarRating.tsx'
+import ColorFulList from './components/ColorfulList/ColorFulList.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path='/skeleton-loader' element={<SkeletonLoader/>}/>
         <Route path='/timer' element={<TimerMain />}/>
         <Route path='/starrating' element={<StarRating/>}/>
+        <Route path='/colorfullist' element={<ColorFulList />} />
       </Routes>
     </BrowserRouter>
     

@@ -23,6 +23,9 @@ function App() {
           <li>
             <Link to={'/starrating'} >Star Rating</Link>
           </li>
+          <li>
+            <Link to={'/colorfullist'}>Color Ful List</Link>
+          </li>
         </ul>
       </nav>
     </>
